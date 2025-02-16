@@ -2,6 +2,8 @@
 how to install jenkins in our ec2 instance or windows or any os
 
 # first we need install jdk
+
+
 sudo apt update
 sudo apt install fontconfig openjdk-17-jre
 java -version
@@ -54,6 +56,13 @@ sudo apt -get update
 sudo apt install docker.io
 
 # dockers run on a daemon process
+
+
+sudo su -
+usermod -aG docker jenkins
+usermod -aG docker ubuntu
+systemctl restart docker
+
 
 
 
