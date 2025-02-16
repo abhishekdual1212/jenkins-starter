@@ -12,7 +12,7 @@ OpenJDK Runtime Environment (build 17.0.13+11-Debian-2)
 OpenJDK 64-Bit Server VM (build 17.0.13+11-Debian-2, mixed mode, sharing)
 
 
-# now we we install jenkins because jenkins use java 
+ now we we install jenkins because jenkins use java 
 
 
 
@@ -25,14 +25,14 @@ sudo apt-get update
 sudo apt-get install jenkins
 
 
-# how to check that jenkins application is run on which port 
+how to check that jenkins application is run on which port 
 -- jenkins always run on port 8080
 
 
 ps -f | grep jenkins
 
 
-# how to get password of jenkins administrator password
+how to get password of jenkins administrator password
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
  --copy the initial password--
@@ -50,12 +50,12 @@ jenkins -----|--- jenkins worker 1
 
 
 
-# always install docker in ec2 master node
+always install docker in ec2 master node
 
 sudo apt -get update
 sudo apt install docker.io
 
-# dockers run on a daemon process
+ dockers run on a daemon process
 
 
 sudo su -
